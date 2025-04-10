@@ -10,11 +10,6 @@
 		F50220C12D978F7F00ABE484 /* GameDexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50220C02D978F7F00ABE484 /* GameDexApp.swift */; };
 		F50220C52D978F8000ABE484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50220C42D978F8000ABE484 /* Assets.xcassets */; };
 		F50220C82D978F8000ABE484 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50220C72D978F8000ABE484 /* Preview Assets.xcassets */; };
-		F50220DE2D97933E00ABE484 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F50220DD2D97933E00ABE484 /* Alamofire */; };
-		F50220E02D97933E00ABE484 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F50220DF2D97933E00ABE484 /* AlamofireDynamic */; };
-		F50220F72D979B7000ABE484 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = F50220F62D979B7000ABE484 /* Resolver */; };
-		F50220F92D979B7000ABE484 /* Resolver-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F50220F82D979B7000ABE484 /* Resolver-Dynamic */; };
-		F50220FB2D979B7000ABE484 /* Resolver-Static in Frameworks */ = {isa = PBXBuildFile; productRef = F50220FA2D979B7000ABE484 /* Resolver-Static */; };
 		F50221042D97BEF200ABE484 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50221032D97BEF200ABE484 /* HomeViewModel.swift */; };
 		F50221062D97BF3200ABE484 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50221052D97BF3200ABE484 /* HomeView.swift */; };
 		F50E2ED82DA620410094C85D /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = F50E2ED72DA620410094C85D /* Game */; };
@@ -23,9 +18,7 @@
 		F5785B722D98F7A70011268A /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5785B712D98F7A70011268A /* FavoriteViewModel.swift */; };
 		F5B593432DA4DE1D000DECB2 /* GameDexCore in Frameworks */ = {isa = PBXBuildFile; productRef = F5B593422DA4DE1D000DECB2 /* GameDexCore */; };
 		F5C7EC8C2DA773400018EC30 /* GameDexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7EC8B2DA773400018EC30 /* GameDexTests.swift */; };
-		F5C7EC922DA77D2C0018EC30 /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F50220DF2D97933E00ABE484 /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F5C7EC942DA77D2E0018EC30 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F55C4C6D2D994DBC00A925D1 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		F5C7EC952DA77D300018EC30 /* Resolver-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F50220F82D979B7000ABE484 /* Resolver-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F5EDDD862D981D6C00C94CA6 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDDD852D981D6C00C94CA6 /* AboutView.swift */; };
 		F5EDDD882D981F5D00C94CA6 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDDD872D981F5D00C94CA6 /* FavoriteView.swift */; };
 		F5EDDD8A2D98233E00C94CA6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDDD892D98233E00C94CA6 /* DetailView.swift */; };
@@ -52,8 +45,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				F5C7EC942DA77D2E0018EC30 /* RealmSwift in Embed Frameworks */,
-				F5C7EC952DA77D300018EC30 /* Resolver-Dynamic in Embed Frameworks */,
-				F5C7EC922DA77D2C0018EC30 /* AlamofireDynamic in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,13 +78,8 @@
 			files = (
 				F50E2ED82DA620410094C85D /* Game in Frameworks */,
 				F55AEA8F2D97FD66000C3146 /* Kingfisher in Frameworks */,
-				F50220F92D979B7000ABE484 /* Resolver-Dynamic in Frameworks */,
 				F55C4C6E2D994DBC00A925D1 /* RealmSwift in Frameworks */,
-				F50220F72D979B7000ABE484 /* Resolver in Frameworks */,
-				F50220DE2D97933E00ABE484 /* Alamofire in Frameworks */,
 				F5F5BA132DA5220100B2FA0D /* Favorite in Frameworks */,
-				F50220FB2D979B7000ABE484 /* Resolver-Static in Frameworks */,
-				F50220E02D97933E00ABE484 /* AlamofireDynamic in Frameworks */,
 				F5B593432DA4DE1D000DECB2 /* GameDexCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,11 +223,6 @@
 			);
 			name = GameDex;
 			packageProductDependencies = (
-				F50220DD2D97933E00ABE484 /* Alamofire */,
-				F50220DF2D97933E00ABE484 /* AlamofireDynamic */,
-				F50220F62D979B7000ABE484 /* Resolver */,
-				F50220F82D979B7000ABE484 /* Resolver-Dynamic */,
-				F50220FA2D979B7000ABE484 /* Resolver-Static */,
 				F55AEA8E2D97FD66000C3146 /* Kingfisher */,
 				F55C4C6D2D994DBC00A925D1 /* RealmSwift */,
 				F5B593422DA4DE1D000DECB2 /* GameDexCore */,
@@ -299,8 +280,6 @@
 			);
 			mainGroup = F50220B42D978F7F00ABE484;
 			packageReferences = (
-				F50220DC2D97933D00ABE484 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				F50220F52D979B7000ABE484 /* XCRemoteSwiftPackageReference "Resolver" */,
 				F55AEA8D2D97FD66000C3146 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				F55C4C6C2D994DBC00A925D1 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				F5B593412DA4DE1D000DECB2 /* XCRemoteSwiftPackageReference "GameDexCore" */,
@@ -612,22 +591,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F50220DC2D97933D00ABE484 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.10.2;
-			};
-		};
-		F50220F52D979B7000ABE484 /* XCRemoteSwiftPackageReference "Resolver" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hmlongco/Resolver";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.5.1;
-			};
-		};
 		F55AEA8D2D97FD66000C3146 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -655,31 +618,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F50220DD2D97933E00ABE484 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F50220DC2D97933D00ABE484 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		F50220DF2D97933E00ABE484 /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F50220DC2D97933D00ABE484 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
-		};
-		F50220F62D979B7000ABE484 /* Resolver */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F50220F52D979B7000ABE484 /* XCRemoteSwiftPackageReference "Resolver" */;
-			productName = Resolver;
-		};
-		F50220F82D979B7000ABE484 /* Resolver-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F50220F52D979B7000ABE484 /* XCRemoteSwiftPackageReference "Resolver" */;
-			productName = "Resolver-Dynamic";
-		};
-		F50220FA2D979B7000ABE484 /* Resolver-Static */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F50220F52D979B7000ABE484 /* XCRemoteSwiftPackageReference "Resolver" */;
-			productName = "Resolver-Static";
-		};
 		F50E2ED72DA620410094C85D /* Game */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Game;
