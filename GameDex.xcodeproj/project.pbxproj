@@ -40,6 +40,7 @@
 		F50E2ED52DA6201A0094C85D /* Game */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Game; path = Modules/Game; sourceTree = "<group>"; };
 		F5785B712D98F7A70011268A /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		F5947FD42DA51F9000B6E15D /* Favorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Favorite; path = Modules/Favorite; sourceTree = "<group>"; };
+		F5C7EC842DA7607F0018EC30 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		F5EDDD852D981D6C00C94CA6 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		F5EDDD872D981F5D00C94CA6 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		F5EDDD892D98233E00C94CA6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		F50220B42D978F7F00ABE484 = {
 			isa = PBXGroup;
 			children = (
+				F5C7EC842DA7607F0018EC30 /* codemagic.yaml */,
 				F50E2ED52DA6201A0094C85D /* Game */,
 				F5947FD42DA51F9000B6E15D /* Favorite */,
 				F50220BF2D978F7F00ABE484 /* GameDex */,
