@@ -23,6 +23,9 @@
 		F5785B722D98F7A70011268A /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5785B712D98F7A70011268A /* FavoriteViewModel.swift */; };
 		F5B593432DA4DE1D000DECB2 /* GameDexCore in Frameworks */ = {isa = PBXBuildFile; productRef = F5B593422DA4DE1D000DECB2 /* GameDexCore */; };
 		F5C7EC8C2DA773400018EC30 /* GameDexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7EC8B2DA773400018EC30 /* GameDexTests.swift */; };
+		F5C7EC922DA77D2C0018EC30 /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F50220DF2D97933E00ABE484 /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F5C7EC942DA77D2E0018EC30 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F55C4C6D2D994DBC00A925D1 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F5C7EC952DA77D300018EC30 /* Resolver-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F50220F82D979B7000ABE484 /* Resolver-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F5EDDD862D981D6C00C94CA6 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDDD852D981D6C00C94CA6 /* AboutView.swift */; };
 		F5EDDD882D981F5D00C94CA6 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDDD872D981F5D00C94CA6 /* FavoriteView.swift */; };
 		F5EDDD8A2D98233E00C94CA6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDDD892D98233E00C94CA6 /* DetailView.swift */; };
@@ -40,6 +43,22 @@
 			remoteInfo = GameDex;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5C7EC932DA77D2C0018EC30 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F5C7EC942DA77D2E0018EC30 /* RealmSwift in Embed Frameworks */,
+				F5C7EC952DA77D300018EC30 /* Resolver-Dynamic in Embed Frameworks */,
+				F5C7EC922DA77D2C0018EC30 /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F50220BD2D978F7F00ABE484 /* GameDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,6 +229,7 @@
 				F50220B92D978F7F00ABE484 /* Sources */,
 				F50220BA2D978F7F00ABE484 /* Frameworks */,
 				F50220BB2D978F7F00ABE484 /* Resources */,
+				F5C7EC932DA77D2C0018EC30 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

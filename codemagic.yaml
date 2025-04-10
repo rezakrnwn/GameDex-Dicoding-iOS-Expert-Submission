@@ -8,13 +8,16 @@ workflows:
           XCODE_PROJECT: "GameDex.xcodeproj"
           XCODE_SCHEME: "GameDex"
     scripts:
+      - name: Clean derived data
+        script: |
+          rm -rf ~/Library/Developer/Xcode/DerivedData
       - name: Run tests
         script: |
           xcodebuild \
           -project "$XCODE_PROJECT" \
           -scheme "$XCODE_SCHEME" \
           -sdk iphonesimulator \
-          -destination 'platform=iOS Simulator,name=iPhone 16 Pro Max,OS=18.2' \
+          -destination 'platform=iOS Simulator,name=iPhone 16' \
           clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
       - name: Build debug app
         script: |
